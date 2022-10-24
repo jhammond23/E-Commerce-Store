@@ -1,5 +1,5 @@
 /* An array that assigns values and creates products on site */
-let base = new URL("https://jhammond23.github.io/E-Commerce-Store/store.html")
+let base = new URL("https://jhammond23.github.io/jhammond23.github.io")
 const products = [
   {
     name: 'Curved Handle Steel Axe',
@@ -7,7 +7,7 @@ const products = [
     quantity: 0,
     productId: 101,
     basePrice: 200,
-    image: new URL(".\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\axe3.imageset/axe3@2x.png", base),
+    image: new URL("\\starter\\src\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\axe3.imageset/axe3@2x.png", base),
   },
   {
     name: 'Two-Handed Battle Axe',
@@ -15,7 +15,7 @@ const products = [
     quantity: 0,
     productId: 102,
     basePrice: 300,
-    image: new URL(".\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\axe4.imageset\\axe4@2x.png", base),
+    image: new URL("\\starter\\src\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\axe4.imageset\\axe4@2x.png", base),
   }, 
   {
     name: 'Basic Short Iron Axe',
@@ -23,7 +23,7 @@ const products = [
     quantity: 0,
     productId: 103,
     basePrice: 100,
-    image: new URL(".\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\axe1.imageset\\axe1@2x.png", base),
+    image: new URL("\\starter\\src\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\axe1.imageset\\axe1@2x.png", base),
   },
   {
     name: 'Basic Curved Iron Axe',
@@ -31,7 +31,7 @@ const products = [
     quantity: 0,
     productId: 104,
     basePrice: 75,
-    image: new URL(".\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\axe2.imageset\\axe2@2x.png", base),
+    image: new URL("\\starter\\src\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\axe2.imageset\\axe2@2x.png", base),
   },
   {
     name: 'Basic Steel Curved Knife',
@@ -39,7 +39,7 @@ const products = [
     quantity: 0,
     productId: 105,
     basePrice: 175,
-    image: new URL(".\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\knife.imageset\\knife@2x.png", base),
+    image: new URL("\\starter\\src\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\knife.imageset\\knife@2x.png", base),
   },
   {
     name: 'Basic Straight Small Sword',
@@ -47,7 +47,7 @@ const products = [
     quantity: 0,
     productId: 106,
     basePrice: 150,
-    image: new URL(".\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\knife2.imageset\\knife2@2x.png", base),
+    image: new URL("\\starter\\src\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\knife2.imageset\\knife2@2x.png", base),
   },
   {
     name: 'Styled Curved Long Dagger',
@@ -55,7 +55,7 @@ const products = [
     quantity: 0,
     productId: 107,
     basePrice: 200,
-    image: new URL(".\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\ladies_dagger.imageset\\ladies_dagger@2x.png", base),
+    image: new URL("\\starter\\src\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\ladies_dagger.imageset\\ladies_dagger@2x.png", base),
   },
   {
     name: 'Steel Short Broadsword',
@@ -63,7 +63,7 @@ const products = [
     quantity: 0,
     productId: 108,
     basePrice: 250,
-    image: new URL(".\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\short_sword.imageset\\short_sword@2x.png", base),
+    image: new URL("\\starter\\src\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\short_sword.imageset\\short_sword@2x.png", base),
   },
   {
     name: 'Long Steel Broadsword',
@@ -71,7 +71,7 @@ const products = [
     quantity: 0,
     productId: 109,
     basePrice: 275,
-    image: new URL(".\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\sword.imageset\\sword@2x.png", base),
+    image: new URL("\\starter\\src\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\sword.imageset\\sword@2x.png", base),
   },
   {
     name: 'Heavy Stone War Hammer',
@@ -79,7 +79,7 @@ const products = [
     quantity: 0,
     productId: 110,
     basePrice: 350,
-    image: new URL(".\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\warhammer1.imageset\\warhammer1@2x.png", base),
+    image: new URL("\\starter\\src\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\warhammer1.imageset\\warhammer1@2x.png", base),
   },
   {
     name: 'War Hammer of MTRM',
@@ -87,7 +87,7 @@ const products = [
     quantity: 0,
     productId: 111,
     basePrice: 475,
-    image: new URL(".\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\warhammer3.imageset\\warhammer3@2x.png", base),
+    image: new URL("\\starter\\src\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\warhammer3.imageset\\warhammer3@2x.png", base),
   },
   {
     name: 'Mystical Wooden Staff',
@@ -95,7 +95,7 @@ const products = [
     quantity: 0,
     productId: 112,
     basePrice: 950,
-    image: new URL(".\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\wand.imageset\\wand@2x.png", base),
+    image: new URL("\\starter\\src\\images\\Weapon_Collection1\\Weapon_Collection1\\Weapons.xcassets\\wand.imageset\\wand@2x.png", base),
   },
   {
     name: 'Hammer, the Everflow',
@@ -103,7 +103,7 @@ const products = [
     quantity: 0,
     productId: 99,
     basePrice: 1500,
-    image: new URL(".\\images\\CSS-Cards\\Hammer card.png", base),
+    image: new URL("\\starter\\src\\images\\CSS-Cards\\Hammer card.png", base),
   },
   {
     name: 'Captain Ner0, the Seafarer',
@@ -111,7 +111,7 @@ const products = [
     quantity: 0,
     productId: 98,
     basePrice: 1500,
-    image: new URL(".\\images\\CSS-Cards\\Ner0 card.png", base),
+    image: new URL("\\starter\\src\\images\\CSS-Cards\\Ner0 card.png", base),
   },
   {
     name: 'Punjab, the Goblin King',
@@ -119,7 +119,7 @@ const products = [
     quantity: 0,
     productId: 97,
     basePrice: 1500,
-    image: new URL(".\\images\\CSS-Cards\\Punjab card.png", base),
+    image: new URL("\\starter\\src\\images\\CSS-Cards\\Punjab card.png", base),
   },
   {
     name: 'The Minotaur King',
@@ -127,7 +127,7 @@ const products = [
     quantity: 0,
     productId: 96,
     basePrice: 3000,
-    image: new URL(".\\images\\CSS-Cards\\MK320x540.png", base),
+    image: new URL("\\starter\\src\\images\\CSS-Cards\\MK320x540.png", base),
   },
 ]
 
