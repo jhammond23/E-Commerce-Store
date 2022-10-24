@@ -1,5 +1,5 @@
 /* An array that assigns values and creates products on site */
-let base = new URL("https://jhammond23.github.io/jhammond23.github.io/store.html")
+let base = new URL("https://jhammond23.github.io/E-Commerce-Store/store.html")
 const products = [
   {
     name: 'Curved Handle Steel Axe',
